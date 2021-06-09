@@ -1,0 +1,81 @@
+p {
+  margin-bottom: 0;
+}
+
+.contenedor-principal {
+  min-height: 100vh;
+}
+
+.contenido-principal {
+  align-self: center;
+  justify-self: center;
+  width: 920px;
+}
+
+.card {
+  min-height: 500px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 50px;
+}
+
+.card p {
+  font-size: 15;
+}
+
+.sedan-card {
+  background-color: #e28525;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sedan-card .card-button {
+  color: #e28525;
+}
+
+.suv-card {
+  background-color: #016972;
+  border-radius: 0;
+}
+.suv-card .card-button {
+  color: #016972;
+}
+
+.luxury-card {
+  background-color: #00403f;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.luxury-card .card-button {
+  color: #00403f;
+}
+
+.car-icon {
+  margin-bottom: 40px;
+}
+
+.car-title {
+  margin-bottom: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.card-button {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  border-radius: 30px;
+  margin-top: 90px;
+  height: 50px;
+  width: 150px;
+  font-size: 15;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card-button:hover {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 3px solid hsla(0, 0%, 100%, 0.75);
+}
